@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin:0;
+}
+#yin-yang{
+    width: 300px;
+    height: 150px;
+    color: white;
+    border: solid 2px black;
+    border-bottom: 150px solid black;
+    border-radius: 50%;
+}
+#yin{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 2px;
+    top:75px;
+}
+#yang{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:75px;
+    left: 152px;
+}
+#yanghole{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#yinhole{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+}
